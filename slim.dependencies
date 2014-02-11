@@ -1,6 +1,6 @@
 [
     {
-        "repository": "CyanogenMod/android_device_sony_fuji-common",
+        "repository": "olivieer/android_device_sony_fuji-common",
         "target_path": "device/sony/fuji-common"
     },
     {
@@ -11,5 +11,9 @@
     {
         "repository": "CyanogenMod/android_hardware_sony_DASH",
         "target_path": "hardware/sony/DASH"
+    },
+	{
+        "repository": "TheMuppets/proprietary_vendor_sony",
+        "target_path": "vendor/sony"
     }
 ]
