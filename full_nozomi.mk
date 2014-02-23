@@ -36,7 +36,7 @@ $(call inherit-product, device/sony/fuji-common/prebuilt/resources-xdpi.mk)
 $(call inherit-product, device/sony/nozomi/nozomi.mk)
 
 # Set those variables here to overwrite the inherited values.
-PRODUCT_NAME := full_nozomi
+PRODUCT_NAME := mk_nozomi
 PRODUCT_DEVICE := nozomi
 PRODUCT_BRAND := Sony
 PRODUCT_MANUFACTURER := Sony
