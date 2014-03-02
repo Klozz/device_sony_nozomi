@@ -29,10 +29,10 @@ TARGET_SCREEN_WIDTH := 720
 
 #Extra Device info
 PRODUCT_PROPERTY_OVERRIDES += \
-	ro.device.cpu=Snapdragon S3 \
-	ro.device.gpu=Adreno 220 \
-	ro.device.rear_cam=12 MP \
-	ro.device.front_cam=1.3 MP \
+	ro.device.cpu=SnapdragonS3 \
+	ro.device.gpu=Adreno220 \
+	ro.device.rear_cam=12MP \
+	ro.device.front_cam=1.3MP \
 	ro.device.screen_res=720x1280
 
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=LT26i BUILD_FINGERPRINT=SEMC/LT26i_1257-6919/LT26i:4.1.2/6.2.B.0.200/N7__zg:user/release-keys PRIVATE_BUILD_DESC="LT26i-user 4.1.2 6.2.B.0.200 N7__zg test-keys"
@@ -40,4 +40,4 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=LT26i BUILD_FINGERPRINT=SEMC/LT26i_
 PRODUCT_NAME := slim_nozomi
 PRODUCT_DEVICE := nozomi
 # Release name
-PRODUCT_RELEASE_NAME := SLIM-LT26
+PRODUCT_RELEASE_NAME := SlimNozomi-djolivier
