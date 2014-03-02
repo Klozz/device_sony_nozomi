@@ -17,7 +17,7 @@ $(call inherit-product, vendor/slim/config/common_full_phone.mk)
 
 #Boot Animation
 PRODUCT_COPY_FILES += \
-	vendor/slim/prebuilt/hdpi/bootanimation.zip:system/media/bootanimation.zip
+	device/sony/fuji-common/prebuilt/bootanimation.zip:system/media/bootanimation.zip
 	
 #copy 00check
 PRODUCT_COPY_FILES += \
