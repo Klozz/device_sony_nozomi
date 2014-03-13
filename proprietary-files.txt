@@ -5,6 +5,7 @@ bin/btld
 bin/cal_data_manager
 bin/chargemon
 bin/clearpad_fwloader
+bin/cm.tar
 bin/hostapd
 bin/mpdecision
 bin/netmgrd
@@ -12,6 +13,7 @@ bin/nvcustomizer
 bin/nvimport
 bin/qmuxd
 bin/qseecomd
+bin/recovery.tar
 bin/rild
 bin/rmt_storage
 bin/secchand
