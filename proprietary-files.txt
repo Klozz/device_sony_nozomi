@@ -32,6 +32,10 @@ etc/firmware/dsps_fluid.b01
 etc/firmware/dsps_fluid.b02
 etc/firmware/dsps_fluid.b03
 etc/firmware/dsps_fluid.mdt
+etc/firmware/
+etc/firmware/
+etc/firmware/
+etc/firmware/
 etc/firmware/modem.b00
 etc/firmware/modem.b01
 etc/firmware/modem.b02
@@ -98,6 +102,7 @@ lib/libface.so
 lib/libfmradio.brcm-prop_rx.so
 lib/libfmradio.so
 lib/libgemini.so
+lib/libhardware_legacy.so
 lib/libidd.so
 lib/libidl.so
 lib/libmiscta.so
