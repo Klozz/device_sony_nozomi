@@ -32,10 +32,11 @@ etc/firmware/dsps_fluid.b01
 etc/firmware/dsps_fluid.b02
 etc/firmware/dsps_fluid.b03
 etc/firmware/dsps_fluid.mdt
-etc/firmware/
-etc/firmware/
-etc/firmware/
-etc/firmware/
+etc/firmware/fw_bcm4330b1.bin
+etc/firmware/fw_bcm4330b1_apsta.bin
+etc/firmware/fw_bcm4330b2.bin
+etc/firmware/fw_bcm4330b2_apsta.bin
+etc/firmware/fw_bcm4330b2_p2p.bin
 etc/firmware/modem.b00
 etc/firmware/modem.b01
 etc/firmware/modem.b02
