@@ -8,6 +8,8 @@ USE_CAMERA_STUB := true
 
 TARGET_KERNEL_CONFIG := cm_fuji_nozomi_defconfig
 
+TARGET_PREBUILT_KERNEL := device/sony/nozomi/prebuilt/kernel
+
 # Partition information
 BOARD_VOLD_MAX_PARTITIONS := 16
 
