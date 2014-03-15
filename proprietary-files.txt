@@ -5,12 +5,15 @@ bin/btld
 bin/cal_data_manager
 bin/chargemon
 bin/clearpad_fwloader
+bin/cm.tar
+bin/hostapd
 bin/mpdecision
 bin/netmgrd
 bin/nvcustomizer
 bin/nvimport
 bin/qmuxd
 bin/qseecomd
+bin/recovery.tar
 bin/rild
 bin/rmt_storage
 bin/secchand
@@ -21,6 +24,7 @@ bin/tad
 bin/thermald
 bin/updatemiscta
 bin/wait4tad
+bin/wpa_supplicant
 etc/clearpad_fwloader.sh
 etc/firmware/BCM4330.hcd
 etc/firmware/dsps_fluid.b00
@@ -28,6 +32,11 @@ etc/firmware/dsps_fluid.b01
 etc/firmware/dsps_fluid.b02
 etc/firmware/dsps_fluid.b03
 etc/firmware/dsps_fluid.mdt
+etc/firmware/fw_bcm4330b1.bin
+etc/firmware/fw_bcm4330b1_apsta.bin
+etc/firmware/fw_bcm4330b2.bin
+etc/firmware/fw_bcm4330b2_apsta.bin
+etc/firmware/fw_bcm4330b2_p2p.bin
 etc/firmware/modem.b00
 etc/firmware/modem.b01
 etc/firmware/modem.b02
@@ -94,6 +103,7 @@ lib/libface.so
 lib/libfmradio.brcm-prop_rx.so
 lib/libfmradio.so
 lib/libgemini.so
+lib/libhardware_legacy.so
 lib/libidd.so
 lib/libidl.so
 lib/libmiscta.so
@@ -133,6 +143,7 @@ lib/libta.so
 lib/libta_rmt_clnt.so
 lib/libthermal_mitigation.so
 lib/libthermal_mitigation_fusion.so
+lib/modules/bcm4330.ko
 vendor/camera/APT01BM0.dat
 vendor/camera/KMO13BS0.dat
 vendor/camera/KMO13BS0_BU6456.dat
@@ -145,3 +156,4 @@ vendor/camera/SOI13BS1_IMX091.dat
 vendor/camera/STW01BM0.dat
 vendor/camera/flash.dat
 vendor/camera/product.dat
+xbin/busybox
