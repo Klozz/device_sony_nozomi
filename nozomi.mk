@@ -13,6 +13,13 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+# Prebuilt Kernel
+ifeq ($(TARGET_PREBUILT_KERNEL),)
+LOCAL_KERNEL := device/sony/nozomi/prebuilt/kernel
+else
+LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
+endif
+PRODUCT_COPY_FILES += $(LOCAL_KERNEL):kernel
 
 # Inherit the fuji-common definitions
 $(call inherit-product, device/sony/fuji-common/fuji.mk)
