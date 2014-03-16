@@ -14,11 +14,7 @@
 # limitations under the License.
 #
 # Prebuilt Kernel
-ifeq ($(TARGET_PREBUILT_KERNEL),)
 LOCAL_KERNEL := device/sony/nozomi/prebuilt/kernel
-else
-LOCAL_KERNEL := $(TARGET_PREBUILT_KERNEL)
-endif
 PRODUCT_COPY_FILES += $(LOCAL_KERNEL):kernel
 
 # Inherit the fuji-common definitions
