@@ -15,6 +15,7 @@
 #
 # Prebuilt Kernel
 LOCAL_KERNEL := device/sony/nozomi/prebuilt/kernel
+KERNEL_BIN := $(LOCAL_KERNEL)
 PRODUCT_COPY_FILES += $(LOCAL_KERNEL):kernel
 
 # Inherit the fuji-common definitions
