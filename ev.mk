@@ -22,8 +22,8 @@ PRODUCT_MODEL := Xperia S
 #
 # Set up the product codename, build version & MOTD.
 #
-PRODUCT_CODENAME := Perdo
-PRODUCT_VERSION_DEVICE_SPECIFIC := p1
+PRODUCT_CODENAME := Olivier
+PRODUCT_VERSION_DEVICE_SPECIFIC := Olivier
 
 PRODUCT_MOTD :="\n\n\n--------------------MESSAGE---------------------\nThank you for choosing Evervolv for your Sony Xperia S\nPlease visit the\thread on XDA-developers.com\nfor the latest Evervolv updates\nGet the latest rom at goo.im\n------------------------------------------------\n"
 
